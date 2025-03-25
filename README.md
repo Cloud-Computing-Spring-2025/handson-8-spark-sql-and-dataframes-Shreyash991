@@ -219,13 +219,20 @@ Identify trending hashtags by analyzing their frequency of use across all posts.
 **Expected Outcome:**  
 A ranked list of the most-used hashtags and their frequencies.
 
-**Example Output:**
+**Result Output:**
 
 | Hashtag     | Count |
 |-------------|-------|
-| #tech       | 120   |
-| #mood       | 98    |
-| #design     | 85    |
+| #social     | 31    |
+| #cleanUI    | 26    |
+| #UX         | 25    |
+| #love       | 21    |
+| #AI         | 19    |
+| #tech       | 18    |
+| #design     | 18    |
+| #fail       | 18    |
+| #mood       | 14    |
+| #bug        | 12    |
 
 ---
 
@@ -243,13 +250,14 @@ Understand how users from different age groups engage with content based on like
 **Expected Outcome:**  
 A summary of user engagement behavior categorized by age group.
 
-**Example Output:**
+**Result Output:**
 
 | Age Group | Avg Likes | Avg Retweets |
 |-----------|-----------|--------------|
-| Adult     | 67.3      | 25.2         |
-| Teen      | 22.0      | 5.6          |
-| Senior    | 9.2       | 1.3          |
+| Senior    | 88.3      | 28.5         |
+| Adult     | 76.0      | 23.9         |
+| Teen      | 68.1      | 22.1         |
+
 
 ---
 
@@ -266,13 +274,14 @@ Evaluate how sentiment (positive, neutral, or negative) influences post engageme
 **Expected Outcome:**  
 Insights into whether happier or angrier posts get more attention.
 
-**Example Output:**
+**Result Output:**
 
-| Sentiment | Avg Likes | Avg Retweets |
-|-----------|-----------|--------------|
-| Positive  | 85.6      | 32.3         |
-| Neutral   | 27.1      | 10.4         |
-| Negative  | 13.6      | 4.7          |
+   | Sentiment | Avg Likes | Avg Retweets |
+   |-----------|-----------|--------------|
+   | Neutral   | 81.4      | 27.3         |
+   | Negative  | 80.3      | 20.4         |
+   | Positive  | 65.2      | 23.3         |
+
 
 ---
 
@@ -290,12 +299,16 @@ Find the most influential verified users based on their post reach (likes + retw
 **Expected Outcome:**  
 A leaderboard of verified users based on audience engagement.
 
-**Example Output:**
+**Result Output:**
 
-| Username       | Total Reach |
-|----------------|-------------|
-| @techie42      | 1650        |
-| @designer_dan  | 1320        |
+| Username    | Total Reach |
+|-------------|-------------|
+| @critic99   | 1168        |
+| @techie42   | 1066        |
+| @meme_lord  | 1060        |
+| @calm_mind  | 1024        |
+| @rage_user  | 481         |
+
 
 ---
 
